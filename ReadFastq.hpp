@@ -19,14 +19,8 @@
 #include "NWAlign.hpp"
 
 //
-// fastq constants for MissionBio Reads
+// 
 //
-const std::string offc17 = "GTCAGTACGTACGAGTC";
-const std::string offc16 = "TCAGTACGTACGAGTC";
-const std::string offc15 = "CAGTACGTACGAGTC";
-const std::string offc14 = "AGTACGTACGAGTC";
-const std::string seq1Const2 = "GTACTCGCAGTAGTC";
-
 int findOffset(const std::string &seq);
 
 const std::string geCD33  = "CO-819_AMP47";
